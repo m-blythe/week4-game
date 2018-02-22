@@ -1,0 +1,99 @@
+/*====== set up global style for the body of the crystals game =============*/
+body{
+    /*background-image: url("background_blue.jpg");*/
+    background-image: url("../images/background/cloud_background.jpg");
+}
+#container{
+    margin: 0px;
+    padding: 0px;
+    width: 960px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/*=================STYLE THE MAIN SECTION=================================*/
+#main {
+    background-color: rgb(255,255,204);
+    padding: 10px;
+    margin: 10px;
+    width: 440px;
+    height: 500px;
+    float: left;
+}
+#main p{
+    font-size: 20px;
+    padding: 10px;
+}
+#main h2{
+    padding: 10px;
+    color: red;
+    font-weight: bold;
+}
+/* ================================ STYLE THE RIGHT SECTION ===================*/
+#right_display{
+    width: 440px;
+    height: 300px;
+    float: right;
+    padding: 10px;
+    margin: 10px;
+   /* border:solid 1px black;*/
+}
+
+#score{
+    background-color: green;
+    color: white;
+    float: left;
+    width: 190px;
+    height: 260px;
+    margin: 10px;
+    padding: 5px;
+}
+
+#win_loss{
+    background-color:blue;
+    color: white;
+    width: 190px;
+    height: 260px;
+    float: right;    
+    margin: 10px;
+    padding: 5px;
+}
+/*=====================STYLE THE GEM IMAGES  =======================================*/
+#image{
+    width: auto;
+    margin: 10px;
+    height: auto;
+    float:left;
+}
+#pink{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 100px;
+    width: 100px;
+}
+#blue{
+    height: 100px;
+    width: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#green{
+    height: 100px;
+    width: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#purple{
+    height: 100px;
+    width: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#p_score{
+    float: left;
+    width:150px;
+    height: auto;
+    background-color:blue;
+    color: white;
+}
